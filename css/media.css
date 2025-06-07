@@ -1,4 +1,33 @@
+@media (max-width: 1200px) {
+  #hero {
+    .hero {
+      .hero-1 {
+        max-width: 40px;
+      }
+      .hero-2 {
+        max-width: 55px;
+      }
+      .hero-3 {
+        max-width: 60px;
+        left: 10px;
+      }
+    }
+  }
+}
 @media (max-width: 1130px) {
+  #hero {
+    .hero {
+      h1 {
+        font-size: clamp(1.75rem, 1.235rem + 2.35vw, 3rem);
+      }
+      p {
+        font-size: clamp(0.688rem, 0.61rem + 0.35vw, 0.875rem);
+      }
+      .main-img {
+        max-width: 420px;
+      }
+    }
+  }
   #sait {
     .sait {
       .sait-photo {
@@ -12,28 +41,17 @@
 }
 
 @media (max-width: 992px) {
-  .hero {
-    h1 {
-      font-size: clamp(1.75rem, 1.235rem + 2.35vw, 3rem);
-    }
-    p {
-      font-size: clamp(0.688rem, 0.61rem + 0.35vw, 0.875rem);
-    }
-  }
   .hero-img {
-    .main-img {
-      max-width: 420px;
+    .hero-1 {
+      top: 13px;
     }
-  }
-  .hero-1 {
-    top: 13px;
-  }
-  .hero-2 {
-    top: 33px;
-  }
-  .hero-3 {
-    left: -16px;
-    max-width: 70px;
+    .hero-2 {
+      top: 33px;
+    }
+    .hero-3 {
+      left: -16px;
+      max-width: 70px;
+    }
   }
   #sait {
     .sait {
@@ -80,27 +98,27 @@
       .hero-img {
         max-width: 400px;
         .main-img {
-          max-width: 450px;
+          max-width: 400px;
           justify-content: center;
-          padding-left: 70px;
+          /* padding-left: 70px; */
         }
         .hero-1 {
           top: 35px;
-          right: 50px;
-          max-width: 80px;
+          right: 30px;
+          max-width: 40px;
         }
         .hero-2 {
-          top: 50px;
-          max-width: 80px;
-          left: 45px;
+          top: 60px;
+          max-width: 60px;
+          left: 35px;
         }
         .hero-3 {
-          left: 50px;
-          max-width: 80px;
+          left: 20px;
+          max-width: 55px;
         }
         .hero-4 {
-          right: 40px;
-          max-width: 80px;
+          right: 10px;
+          max-width: 50px;
         }
       }
     }
@@ -122,7 +140,7 @@
   #sait {
     .sait {
       h3 {
-        padding-left: 40px;
+        /* padding-left: 40px;  */
       }
       .sait-photo {
         .img-2 {
@@ -145,29 +163,30 @@
         }
       }
       .hero-img {
-        max-width: 280px;
+        max-width: 330px;
         .main-img {
-          max-width: 390px;
-          padding-left: 100px;
+          max-width: 330px;
+          /* padding-left: 100px; */
         }
         .hero-1 {
           top: 40px;
-          right: 120px;
-          max-width: 40px;
+          right: 20px;
+          max-width: 30px;
         }
         .hero-2 {
           top: 50px;
-          max-width: 50px;
-          left: 90px;
+          max-width: 45px;
+          left: 20px;
         }
         .hero-3 {
-          left: 85px;
-          max-width: 60px;
+          left: 10px;
+          max-width: 40px;
+          bottom: 10px;
         }
         .hero-4 {
-          right: 110px;
-          max-width: 60px;
-          bottom: 5px;
+          right: 25px;
+          max-width: 35px;
+          bottom: 15px;
         }
       }
       .hero-text {
@@ -208,34 +227,6 @@
 }
 
 @media (max-width: 470px) {
-  #hero {
-    .hero {
-      .hero-img {
-        .main-img {
-          padding-left: 100px;
-        }
-        .hero-1 {
-          top: 40px;
-          right: 120px;
-          max-width: 40px;
-        }
-        .hero-2 {
-          top: 50px;
-          max-width: 40px;
-          left: 130px;
-        }
-        .hero-3 {
-          left: 100px;
-          bottom: 10px;
-          max-width: 40px;
-        }
-        .hero-4 {
-          right: 120px;
-          max-width: 40px;
-        }
-      }
-    }
-  }
   #contack {
     .contack {
       flex-direction: column;
